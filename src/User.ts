@@ -1,6 +1,16 @@
 import { Car } from './Car';
 import { UserRolesEnum } from './user-roles.enum';
-import { ArrayNotEmpty, IsArray, IsIn, IsInt, IsOptional, IsString, Min, ValidateNested } from 'class-validator';
+import {
+    ArrayNotEmpty,
+    IsArray,
+    IsEnum,
+    IsIn,
+    IsInt,
+    IsOptional,
+    IsString,
+    Min,
+    ValidateNested
+} from 'class-validator';
 import { Type } from 'class-transformer';
 
 export class User {
