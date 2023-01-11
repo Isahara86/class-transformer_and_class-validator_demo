@@ -17,7 +17,7 @@
   "dependencies": {
     "@types/uuid": "^3.4.6",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.10.0",
+    "class-validator": "^0.14.0",
     "reflect-metadata": "^0.1.13",
     "uuid": "^3.3.3"
   }
